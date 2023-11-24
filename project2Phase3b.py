@@ -361,7 +361,7 @@ genreList = createGenreList()
 [trainingSet, testSet] = partitionRatings(rawRatings, 20)
 [trainingRLu, trainingRLm] = createRatingsDataStructure(numUsers, numMovies, trainingSet)
 
-'''algo1 = []
+algo1 = []
 algo2 = []
 algo3 = []
 algo4 = []
@@ -409,7 +409,7 @@ while j < 10:
     algo4.append(demRatingRmse)
     algo5.append(genreRatingRmse)
     
-    j +=1'''
+    j +=1
 
 [trainingSet, testSet] = partitionRatings(rawRatings, 20)
 
@@ -476,8 +476,8 @@ def draw_boxplot(data, labels):
 # ---------------
 # Data
     
-'''data = [algo1, algo2, algo3, algo4, algo5, ten, hundred, fivehundredm allU]
-labels = ["Algo1", "Algo2", "Algo3", "Algo4", "Algo5", "ten_friends", "hundred_friends", "fivehundred_friends", "all_users"]'''
+data = [algo1, algo2, algo3, algo4, algo5, ten, hundred, fivehundred, allU]
+labels = ["Algo1", "Algo2", "Algo3", "Algo4", "Algo5", "ten_friends", "hundred_friends", "fivehundred_friends", "all_users"]
 data = [ten, hundred, fivehundred, allU]
 labels = ["ten_friends", "hundred_friends", "fivehundred_friends", "all_users"]
     
